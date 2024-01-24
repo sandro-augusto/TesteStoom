@@ -84,7 +84,7 @@ CVV e data de expiração pode ser qualquer valor.
 | support/pages              | Local onde devem ser criados os Arquivos Pages com as Classes e Métodos para as ações                   |
 | support/step_definitions             | Local onde estão criados os recursos de configuração do projeto                                                           |
 | Results             | Local onde são criadas as evidências e relatórios do projeto                                        |
-| Elements            | Local onde deverão ser incluidos os elementos usados na Page        |
+| support/elements            | Local onde deverão ser incluidos os elementos usados na Page        |
 | supoort/actions     | Local onde está as ações de clicar, setar, esperar e etc. utilizado nos arquivos "page"
 
 
