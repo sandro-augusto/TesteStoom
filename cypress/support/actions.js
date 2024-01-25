@@ -130,18 +130,7 @@ function scrollToElmentIndex(el, index) {
     return scrollToElmentIndex;
 }
 
-function getAPI(){
-const app = window.top;
-if (!app.document.head.querySelector('[data-hide-command-log-request]')) {
-    const style = app.document.createElement('style');
-    style.innerHTML =
-        '.command-name-request, .command-name-xhr { display: none }';
-    style.setAttribute('data-hide-command-log-request', '');
-    app.document.head.appendChild(style);
-}
-}
-
 module.exports = {
-    set, click, waitElement, waitElement_index, click_index, clear, get_text, click_text, get_text_index, scrollToElment, scrollToElmentIndex, getAPI,
+    set, click, waitElement, waitElement_index, click_index, clear, get_text, click_text, get_text_index, scrollToElment, scrollToElmentIndex,
     waitElement1
 };
